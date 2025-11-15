@@ -15,6 +15,8 @@ This backup allows restoring the exact visual configuration in case of:
 - Manual edits gone wrong  
 
 ---
+<img width="125" height="1035" alt="Screenshot_20251115_172922" src="https://github.com/user-attachments/assets/a31e5748-3e05-4abb-bbd4-5459645b2db5" />
+<img width="125" height="1035" alt="Screenshot_20251115_173055" src="https://github.com/user-attachments/assets/b3cf8c92-b253-40bb-af0b-c95fdf6fc149" />
 
 ## 📁 Included in this Backup
 Noctis-round-Custom/
