@@ -25,7 +25,6 @@ Noctis-round-Custom/
 README.md
 
 yaml
-Copiar código
 
 All changes were applied directly to SVG files using manual editing.  
 No automated patching tools were used in order to avoid unwanted artifacts.
@@ -39,7 +38,7 @@ No automated patching tools were used in order to avoid unwanted artifacts.
 rm -rf ~/.local/share/plasma/desktoptheme/Noctis-round-Custom
 2. Copy the backup theme to the correct KDE directory
 bash
-Copiar código
+
 cp -r "/home/mr_blue/Área de Trabalho/Noctis-Round-Transparent-Backup/Noctis-round-Custom" ~/.local/share/plasma/desktoptheme/
 3. Apply the theme in KDE Plasma
 Open System Settings
@@ -67,7 +66,7 @@ Overlay shadows or blur
 
 🔧 Optional: Restart KWin (if visual glitches appear)
 bash
-Copiar código
+
 DISPLAY=:0 kwin_x11 --replace & disown
 This forces KWin to reload the decorations and SVG assets without rebooting.
 
@@ -77,12 +76,12 @@ For best visual results, ensure that the KWin script “Rounded Corners” (or s
 Check:
 
 bash
-Copiar código
+
 kpackagetool6 -t KWin/Script --list
 Enable (via System Settings):
 
 sql
-Copiar código
+
 System Settings → Window Management → KWin Scripts → Rounded Corners
 This preserves rounded borders on transparent panels.
 
@@ -126,5 +125,5 @@ KDE does not overwrite files inside ~/.local/share unless a theme with the same 
 
 🔄 Uninstalling the Custom Theme
 bash
-Copiar código
+
 rm -rf ~/.local/share/plasma/desktoptheme/Noctis-round-Custom
